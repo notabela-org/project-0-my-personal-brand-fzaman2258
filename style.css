@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.body {
+    font-family: 'Times New Roman';
+    background: #333;
+    color: #fff;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+
+}
+/* For some reason putting scroll-behavior:smooth; within
+    the container tag didn't work but doing this did
+*/
+html {
+    scroll-behavior: smooth;
+  }
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width:100%;
+    height: 60px;
+    background: rgba(0,0,0,0.7);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.navbar ul li a:hover{
+    color:skyblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+section p {
+    font-size: 1.5rem;
+}
+
+section#about_me {
+    background: url(https://i.stack.imgur.com/yDr7J.jpg) no-repeat center center/cover;
+}
+
+section#projects{
+    background: url(https://www.onlygfx.com/wp-content/uploads/2018/07/7-light-blue-watercolor-splash-background-1.jpg) no-repeat center center/cover;
+}
+
+section#work_exp{
+    background: url(https://cdn.hipwallpaper.com/i/84/9/KWFw60.jpg) no-repeat center center/cover;
+}
+
+section#contact{
+    
+}
