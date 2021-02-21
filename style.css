@@ -76,15 +76,32 @@ section p {
 }
 
 section#about_me {
-    background: url(https://i.stack.imgur.com/yDr7J.jpg) no-repeat center center/cover;
+    /* background: url() no-repeat center center/cover; */
+    width: 300px;
+    margin: auto;
 }
 
+.left_about_me {
+    width: 150px;
+    float: left;
+    height: 120px;
+}
+
+.right_about_me {
+    width: 150px;
+    float: left;
+    height: 120px;
+}
+
+#clear {
+    clear:both;
+}
 section#projects{
     background: url(https://www.onlygfx.com/wp-content/uploads/2018/07/7-light-blue-watercolor-splash-background-1.jpg) no-repeat center center/cover;
 }
 
 section#work_exp{
-    background: url(https://cdn.hipwallpaper.com/i/84/9/KWFw60.jpg) no-repeat center center/cover;
+    background: url(https://i.stack.imgur.com/yDr7J.jpg) no-repeat center center/cover;
 }
 
 section#contact{
