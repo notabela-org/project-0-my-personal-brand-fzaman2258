@@ -1,6 +1,7 @@
 section#work_exp{
     /*background: url(https://i.stack.imgur.com/yDr7J.jpg) no-repeat center center/cover;*/
     background-color: #94ebcd;
+    height:fit-content;
 }
 
 .work{
@@ -22,4 +23,12 @@ section#work_exp{
 .right_work {
     flex: 0.7;
     text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.right_work h3,h4,h5 {
+    text-align: center;
 }
