@@ -25,6 +25,9 @@ section {
 section h1 {
     font-size: 3rem;
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    justify-content: center;
 }
 
 section p {

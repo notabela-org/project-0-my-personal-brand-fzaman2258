@@ -2,12 +2,35 @@ section#contact{
     background-color: #6ddccf;
 }
 
+.icons {
+    width: 100vw;
+    height: fit-content;
+    margin-top: 0px;
+    background-color: #1d232b;
+    text-align: center;
+}
+
 .icons a {
     text-align: center;
     font-size: 2rem;
     cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-section#contact#card {
-    color: white;
+.contact_details {
+    position:absolute;
+}
+
+.form_data {
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form_data input,textarea{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
 }

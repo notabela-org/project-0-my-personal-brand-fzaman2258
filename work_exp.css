@@ -2,3 +2,23 @@ section#work_exp{
     /*background: url(https://i.stack.imgur.com/yDr7J.jpg) no-repeat center center/cover;*/
     background-color: #94ebcd;
 }
+
+.work{
+    display : flex;
+    flex-direction: column;
+}
+
+.work_row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.left_work {
+    flex: 0.3;
+}
+
+.right_work {
+    flex: 0.7;
+}

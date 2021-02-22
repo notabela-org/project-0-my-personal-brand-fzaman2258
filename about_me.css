@@ -9,6 +9,11 @@ section#about_me {
     
 }
 
+section#aboutme h1 {
+    text-align: center;
+    justify-content: center;
+}
+
 /* flex makes them into a row */
 .about {
     display: flex;
