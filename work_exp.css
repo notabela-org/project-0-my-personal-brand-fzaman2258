@@ -21,4 +21,5 @@ section#work_exp{
 
 .right_work {
     flex: 0.7;
+    text-align: left;
 }
