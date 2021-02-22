@@ -24,7 +24,7 @@ section#aboutme h1 {
     flex: 0.5;
     text-align: center;
     margin: auto;
-    font-family: century-gothic;
+    font-family: 'century-gothic';
 }
 
 .right_about_me {

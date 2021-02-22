@@ -20,7 +20,7 @@ section {
     text-align: center;
     width: 100vw;
     height: 100vh;
-    font-family: century-gothic;
+    font-family: 'century-gothic';
 }
 
 section h1 {
@@ -29,10 +29,11 @@ section h1 {
     padding-bottom: 20px;
     padding-top: 60px;
     justify-content: center;
-    font-family: century-gothic;s
-
+    font-family: 'century-gothic';
+}
 
 section p {
     font-size: 1.5rem;
     text-align: center;
+    font-family: 'century-gothic';
 }
