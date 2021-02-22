@@ -1,11 +1,14 @@
 section#contact{
-    background-color: #6ddccf;
+    background-color: #f5f5f5;
 }
 
-
+section#contact h1{
+    color: #1d3149;
+}
 
 .contact_details {
     position:absolute;
+    color: #1d3149;
 }
 
 .form_data {
@@ -13,12 +16,18 @@ section#contact{
     flex-direction: column;
     width: 40%;
     font-family: century-gothic;
+    color: #1d3149;
 }
 
-.form_data input,textarea{
+::placeholder{
+    color: #1d3149;
+}
+
+.form_data input.form_input, textarea.form_textarea{
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 10px;
     font-family: century-gothic;
+    color: #1d3149;
 }

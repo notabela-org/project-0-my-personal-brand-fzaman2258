@@ -1,11 +1,15 @@
 section#work_exp{
     /*background: url(https://i.stack.imgur.com/yDr7J.jpg) no-repeat center center/cover;*/
-    background-color: #94ebcd;
+    background-color: #E0E0E0;
 }
 
+section#work_exp h1{
+    color: #466086;
+}
 .work{
     display : flex;
     flex-direction: column;
+    color: #466086;
 }
 
 .work_row{
