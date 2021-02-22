@@ -5,9 +5,11 @@ section#about_me {
     width: 100vw;
     margin: auto;
     display: flex;
+    background-color: #ffcb91;
     
 }
 
+/* flex makes them into a row */
 .about {
     display: flex;
     justify-content: space-around;

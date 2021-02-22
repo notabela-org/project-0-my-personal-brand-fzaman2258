@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farhan's Website</title>
+    <title>Farhan Zaman</title>
     <link rel = 'stylesheet' href = 'style.css'>
     <link rel = 'stylesheet' href = 'contact.css'>
     <link rel = 'stylesheet' href = 'work_exp.css'>
@@ -40,42 +40,131 @@
 
         <!--About Section-->
         <section id = 'about_me' >
+            <h1>About Me</h1>
+            <hr>
             <div class = 'about'>
                 <div class = 'left_about_me' >
-                    <h1>Welcome, my name is Farhan Zaman.</h1>
-                    <hr>
                     <p>
-                        I am a 21 year old senior studying Computer Science at CCNY.
+                        Welcome, my name is Farhan Zaman. I am a 21 year old senior studying Computer Science at CCNY.
                         I will be graduating Spring 2021 and am currently looking for both Full-time work
                         as a Software Engineer or even a Full-stack developer. My favorite programming language
                         is Python3.
                     </p>
                 </div>
                 <div class = 'right_about_me'>
-                    <img src = 'Image_of_myself.jpg' height = 120vh>
+                    <img src = './images/Image_of_myself.jpg' alt = 'Image of Myself' height = 300px width = 250px>
                 </div>
             </div>
         </section>
 
         <!--Projects Section-->
         <section id = 'projects'>
+            
             <h1>Projects</h1>
+            <hr>
+            <div class = 'project_layout'>
+
+                <div class = 'card'>
+                    <a href = 'https://covid-19-tracker-5cd82.web.app/'><img src = './images/covid_19_tracker.PNG' alt = 'Image of Covid-19 Tracker'></a>
+                    <div class = 'project'>
+                        <h2>Covid-19 Tracker</h2>
+                        <ul>
+                            <li>Displays live data of Covid-19 cases, recovered and death count for every country with a line graph and info box</li>
+                            <li>Displayed Leaflet Map with red circles and larger radius based off the info box clicked with data from CDC API</li>
+                            <li>Tech Stack: React, Nodejs, Firebase, HTML, CSS, Git</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class = 'card'>
+                    <a href = 'https://kitchen-zealot.firebaseapp.com/'><img src = './images/kitchen_zealot.PNG' alt = 'Image of Kitchen Zealot'></a>
+                    <div class = 'project'>
+                        <h2>Kitchen Zealot</h2>
+                        <ul>
+                            <li>Designed a food delivery system where users could order anonymously or through their registered account</li>
+                            <li>Created a food recommendation system based on the previous orders of customers with accounts</li>
+                            <li>Implemented different roles and rules to be withheld when utilizing the interface as a restauranter or customer</li>
+                            <li>Tech Stack: Angular, Type Script, Firebase, HTML</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class = 'card'>
+                    <a href = 'https://github.com/fzaman2258/Flixster-Android-App'><img src = './images/Walkthrough.gif' alt = 'Gif of Flixster App'></a>
+                    <div class = 'project'>
+                        <h2>Flixster App</h2>
+                        <ul>
+                            <li>Flix is an app that allows users to browse movies from the The Movie Database API.</li>
+                            <li>Tech Stack: Android Studio, Java, Glide, MovieDB, Git</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
         </section>
 
         <!--Work Experience-->
         <section id = 'work_exp'>
             <h1>Work Experience</h1>
+            <hr>
+            <div class = 'work'>
+
+                <div class = 'work_row'>
+
+                    <div class = 'left_work'>
+                        <h3>NYC Department of Environmental Protection</h3>
+                        <h4>Cyber Security Intern</h4>
+                        <h5>June 2019 - December 2019</h5>
+                        <h5>Queens, NY</h6>
+                    </div>
+
+                    <div class = 'right_work'>
+                        <ul>
+                            <li>Utilized a ticketing system to collaborate with IT staff to resolve technical issues submitted by 6,000 employees</li>
+                            <li>Developed a script to automate checking of potentially malicious URLs, IPs, and Hashes (MD5 and SHA-256)</li>
+                            <li>Installed McAfee agents on company devices, tested products on company’s Web Gateway, and collaborated with staff to develop user guide documentation that were distributed to employees in other departments</li>
+                            <li>Tested Web Application for Bureau of Engineering Design and Construction to ensure proper functionality</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class = 'work_row'>
+
+                    <div class = 'left_work'>
+                        <h3>Khans Tutotial</h3>
+                        <h4>Common Core, SHSAT Instructor</h4>
+                        <h5>October 2016 - November 2017</h5>
+                        <h5>Astoria, NY</h5>
+                    </div>
+
+                    <div class = 'right_work'>
+                        <ul>
+                            <li>Instructed a maximum of 20 students in algebra, trigonometry, and reading comprehension, which resulted into a 100% acceptance rate into specialized high schools, such as Stuyvesant, Bronx Science, and Brooklyn Tech</li>
+                            <li>Prepared coursework, graded homework assignments, tracked progress over time to adjust teaching material when necessary, and reported to parents every session regarding their child’s performance and progress</li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+            </div>
         </section>
 
         <!--Contact Me-->
         <section id = 'contact'>
             <h1>Contact Me</h1>
-            <div class = 'icons'>            
+            <!--Have fields for them to input name, email, and a form for a message witha  submit button-->
+            <div class = 'icons'>    
+                <hr>        
                 <a href = 'https://github.com/fzaman2258'><i class = 'fab fa-github'></i></a>
                 <a href = 'https://www.linkedin.com/in/farhan-z-589906124/'><i class = 'fab fa-linkedin'></i></a>
                 <a href = 'https://www.facebook.com/crypticblaq/'><i class = 'fab fa-facebook-square'></i></a>
                 <a href = 'https://twitter.com/farhan_da_man'><i class = 'fab fa-twitter'></i></a>
                 <a href = 'mailto:fzaman2258@bths.edu'><i class = 'far fa-envelope'></i></a>
+                <hr>
             </div>
         </section>
 

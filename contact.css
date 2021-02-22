@@ -1,9 +1,13 @@
 section#contact{
-    
+    background-color: #6ddccf;
 }
 
 .icons a {
     text-align: center;
     font-size: 2rem;
     cursor: pointer;
+}
+
+section#contact#card {
+    color: white;
 }
