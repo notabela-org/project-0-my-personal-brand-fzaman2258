@@ -37,3 +37,7 @@ section p {
     text-align: center;
         font-family: 'century-gothic';
 }
+
+hr{
+    width: 80%;
+}
