@@ -37,6 +37,7 @@ html {
     text-decoration: none;
     text-transform: uppercase;
     color: #f4f4f4;
+    font-family: century-gothic;
 }
 
 .navbar ul li a:hover{

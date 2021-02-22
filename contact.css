@@ -17,6 +17,7 @@ section#contact{
     margin-left: 20px;
     margin-right: 20px;
     color: white;
+    font-family: century-gothic;
 }
 
 .contact_details {
@@ -27,6 +28,7 @@ section#contact{
     display:flex;
     flex-direction: column;
     width: 40%;
+    font-family: century-gothic;
 }
 
 .form_data input,textarea{
@@ -34,4 +36,5 @@ section#contact{
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 10px;
+    font-family: century-gothic;
 }
